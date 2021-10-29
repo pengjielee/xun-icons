@@ -1,0 +1,19 @@
+.page-app {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h1 {
+	font-size: 20px;
+}
+
+.card-toast button {
+	margin-right: 10px;
+}
+
+.icon-user {
+	transform: scale(1.2);
+}
