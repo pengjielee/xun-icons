@@ -14,10 +14,7 @@ const SvgArrowRight = (props: React.SVGProps<SVGSVGElement>) => {
       fill={fill || 'currentColor'}
       style={style}
     >
-      <path
-        d="M593.45 512.128L360.065 278.613l45.29-45.226 278.614 278.762-278.635 278.464-45.226-45.269z"
-        fill="#8a8a8a"
-      />
+      <path d="M593.45 512.128L360.065 278.613l45.29-45.226 278.614 278.762-278.635 278.464-45.226-45.269z" />
     </svg>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { Add } from '../src/icons/index';
+import { Add, Wifi, ArrowRight, Back, CheckedSquare, Close } from '../src/icons/index';
 
 import './app.css';
 
@@ -8,7 +8,12 @@ const App = () => {
 	
 	return (
 		<>
-			<Add />
+			<Add size="20"/>
+			<Wifi />
+			<ArrowRight />
+			<Back size="40"/>
+			<CheckedSquare />
+			<Close fill="red"/>
 		</>		
 	);
 };
