@@ -58,6 +58,9 @@ export default (async () => {
 
   const icons = await Promise.all(
     files.map(async (name) => {
+      if(name === 'index.tsx') {
+        return;
+      }
       const entry = path.join(iconsPath, name);
 
       const hasFile = await fs.pathExists(entry);
@@ -77,7 +80,7 @@ export default (async () => {
         plugins,
       })),
     {
-      input: { index: path.join(__dirname, 'src/index.tsx') },
+      input: { index: path.join(__dirname, 'src/icons/index.tsx') },
       output: [
         {
           ...cjsOutput,
