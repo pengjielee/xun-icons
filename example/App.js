@@ -8,7 +8,7 @@ const App = () => {
 	
 	return (
 		<>
-			<Add size="20"/>
+			<Add />
 			<Wifi />
 			<ArrowRight />
 			<Back size="40"/>
