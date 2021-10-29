@@ -5,7 +5,10 @@ function template(
 ) {
   return template.ast`
     ${imports}
-    const ${componentName} = (${props}) => ${jsx}
+    const ${componentName} = (${props}) => {
+      const { size, fill, style } = props;
+      return ${jsx};
+    }
     ${exports}
   `
 }
@@ -27,7 +30,7 @@ function template(
 
 module.exports = {
   icon: true,
-  ref: true,
+  ref: false,
   typescript: true,
   template: template,
   expandProps: 'start',
