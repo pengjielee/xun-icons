@@ -1,6 +1,6 @@
 {
   "name": "xun-icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "module": "es/index.js",
   "description": "",
@@ -31,5 +31,9 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "files": [
+    "dist",
+    "es"
+  ]
 }
