@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 const SvgChecked = (props: React.SVGProps<SVGSVGElement>) => {
   const { size, fill, style } = props;
@@ -11,7 +11,7 @@ const SvgChecked = (props: React.SVGProps<SVGSVGElement>) => {
       width="1em"
       height="1em"
       fontSize={size || 32}
-      fill={fill || 'currentColor'}
+      fill={fill || "currentColor"}
       style={style}
     >
       <path

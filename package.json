@@ -1,17 +1,17 @@
 {
   "name": "xun-icons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "module": "es/index.js",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel example/index.html",
-    "build": "rollup -c",
+    "build": "npm run svg && rollup -c",
     "svg": "svgr src/svgs  --out-dir src/icons --config-file svgr.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "pengjielee",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.5",

@@ -1,19 +1,40 @@
 .page-app {
-	margin: 20px;
+  margin: 20px;
 }
 
 section {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 section h1 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .card-toast button {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 .icon-user {
-	transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.app {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: 100px 100px 100px;
+  /*  声明行间距和列间距  */
+  grid-gap: 20px;
+}
+.icon-item {
+  border: 1px solid #ddd;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

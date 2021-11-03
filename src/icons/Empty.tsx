@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 const SvgEmpty = (props: React.SVGProps<SVGSVGElement>) => {
   const { size, fill, style } = props;
@@ -10,7 +10,7 @@ const SvgEmpty = (props: React.SVGProps<SVGSVGElement>) => {
       viewBox="0 0 64 41"
       xmlns="http://www.w3.org/2000/svg"
       fontSize={size || 32}
-      fill={fill || 'currentColor'}
+      fill={fill || "currentColor"}
       style={style}
     >
       <g transform="translate(0 1)" fill="none" fillRule="evenodd">

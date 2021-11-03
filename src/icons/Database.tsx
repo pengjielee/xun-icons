@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 const SvgDatabase = (props: React.SVGProps<SVGSVGElement>) => {
   const { size, fill, style } = props;
@@ -11,7 +11,7 @@ const SvgDatabase = (props: React.SVGProps<SVGSVGElement>) => {
       width="1em"
       height="1em"
       fontSize={size || 32}
-      fill={fill || 'currentColor'}
+      fill={fill || "currentColor"}
       style={style}
     >
       <path d="M127.936 154.867a411.314 154.867 0 10822.629 0 411.314 154.867 0 10-822.629 0z" />

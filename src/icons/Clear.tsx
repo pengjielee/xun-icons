@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 const SvgClear = (props: React.SVGProps<SVGSVGElement>) => {
   const { size, fill, style } = props;
@@ -11,7 +11,7 @@ const SvgClear = (props: React.SVGProps<SVGSVGElement>) => {
       width="1em"
       height="1em"
       fontSize={size || 32}
-      fill={fill || 'currentColor'}
+      fill={fill || "currentColor"}
       style={style}
     >
       <path d="M484.461 627.901a28.768 28.768 0 01-20.34-49.108l174.267-174.272a28.768 28.768 0 0140.685 40.68L504.806 619.48a28.694 28.694 0 01-20.345 8.423z" />
