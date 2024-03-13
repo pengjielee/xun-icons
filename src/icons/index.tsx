@@ -1,6 +1,7 @@
 export { default as Add } from './Add'
 export { default as Add2 } from './Add2'
 export { default as ArrowRight } from './ArrowRight'
+export { default as Arrow } from './Arrow'
 export { default as Back } from './Back'
 export { default as Board } from './Board'
 export { default as Check } from './Check'
